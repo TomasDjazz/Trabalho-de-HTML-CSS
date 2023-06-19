@@ -1,0 +1,2 @@
+GitHub: https://github.com/TomasDjazz/Trabalho-de-HTML-CSS
+Netlify: https://deft-tarsier-762417.netlify.app
