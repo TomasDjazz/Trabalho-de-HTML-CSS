@@ -22,12 +22,57 @@
     padding: 20px;
     text-align: center;
   }
+
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  /* Redes Sociais */
+  .social-media {
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+  }
   
   h1 {
     font-size: 32px;
     margin-bottom: 20px;
   }
+
+
+  /* Barra de pesquisa */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   
+  .search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #555;
+  }
+  
+    /* Lista dos Carros */
   .car-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -77,6 +122,7 @@
     background-color: #45a049;
   }
   
+  /* Contato */
   .contact-form {
     max-width: 400px;
     margin: 20px auto;
@@ -114,6 +160,7 @@
     background-color: #45a049;
   }
 
+  /* Button para voltar */
   .back-button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -127,4 +174,59 @@
   
   .back-button:hover {
     background-color: #45a049;
+  }
+
+  .vehicle-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vehicle {
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .vehicle img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .vehicle h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .vehicle p {
+    margin-bottom: 5px;
+  }
+
+  /* Footer */
+  .footer-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .footer-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-navbar li {
+    font-size: 14px;
   }
